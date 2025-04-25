@@ -1,21 +1,26 @@
 {
-  "name": "ai-safety-incidents",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "dependencies": {
-    "dotenv": "^16.5.0",
-    "express": "^5.1.0",
-    "mongoose": "^8.13.3"
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.10"
-  }
+    "name": "ai-safety-incidents",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node src/server.js",
+        "dev": "nodemon src/server.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "module",
+    "engines": {
+        "node": ">=18.0.0"
+    },
+    "dependencies": {
+        "dotenv": "^16.5.0",
+        "express": "^5.1.0",
+        "mongoose": "^8.13.3"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.10"
+    }
 }
