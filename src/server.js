@@ -4,8 +4,8 @@ import connectDB from '../config/db.js';
 import express from 'express';
 
 const PORT = process.env.PORT || 3000;
+import app from './app.js';
 
-const app = express();
 app.use(express.json());
 
 const startServer = async () => {
